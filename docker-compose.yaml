@@ -10,7 +10,7 @@ services:
       - database
     ports:
       - "8972:8888"
-    build: .
+    build: ../docker_class/devops-back-pjt
     environment:
       SPRING_DATASOURCE_URL: jdbc:mariadb://database:3306/encore?useUnicode=true
       SPRING_DATASOURCE_USERNAME: work_user
