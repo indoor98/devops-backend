@@ -6,6 +6,7 @@ services:
   #springboot
   app:
     container_name: work-container
+    image: thinghoon/gitaction_back:98c7883802003101edd54960953c38b2a680ede6
     depends_on:
       - database
     ports:
